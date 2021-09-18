@@ -4,14 +4,17 @@ import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from './components/Homepage/Banner';
 import Navbar from './components/Homepage/Navbar';
-import UploadImage from './UploadImage';
+import Features from './components/Homepage/Features';
+import Team from './components/Homepage/Team';
+// import UploadImage from './UploadImage';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Banner />
-      <UploadImage />
+      <Features />
+      <Team />
     </div>
   );
 }

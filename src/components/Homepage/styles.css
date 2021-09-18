@@ -7,6 +7,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #071436;
 }
 
 .navbar {
@@ -16,12 +17,12 @@
 
 .navbar-brand {
   font-size: 2rem;
-  color: white;
+  color: #FF66C4;
   font-family: "Fredoka One";
 }
 
 .navbar-brand:hover {
-  color: rgb(129, 192, 235);
+  color: white;
 }
 
 .nav-link {
@@ -40,7 +41,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background-color: white;
+  background-color: #FF66C4;
   transition: width 0.8s;
 }
 
@@ -58,31 +59,116 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 80%;
+}
+
+.banner-image {
+  padding-left: 140px;
 }
 
 .heading {
-  font-family: "Roboto", "sans-serif";
-  width: 80%;
+  font-family: "Fredoka One", "sans-serif";
+  /* width: 80%; */
 }
 
-.display-6 {
+.display-4 {
   position: relative;
   padding-bottom: 2px;
   text-decoration: none;
+  font-size:45px;
 }
 
-.display-6:hover:after {
-  content: "";
-  position: absolute;
-  bottom: 2px;
-  left: 0;
-  height: 4px;
-  border-radius: 2px;
-  width: 75%;
-  /* background: #444; */
-  background-image: linear-gradient(left, transparent 0%,rgb(192, 241, 235) 50%,transparent 100%);
+.banner-description {
+  font-size: 20px;
 }
-
 .buttons > button {
     margin: 20px 10px;
+}
+
+.btn-outline-info {
+  border-color : #FF66C4;
+  color: #FF66C4;
+  transition: all 0.25s;
+}
+
+.btn-outline-info:hover {
+  background-color : #FF66C4;
+  color: white;
+}
+
+.btn-info {
+  background-color: #071436;
+}
+
+.btn-info:hover {
+  background-color: white;
+  border-color: #071436;
+  color: #071436;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feature {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-description {
+  font-family: "Roboto";
+  width: 60%;
+  margin-top: -40px;
+}
+
+.team-section {
+  background-color: #071436;
+  margin-top: 50px;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.section-title {
+  padding-top: 30px;
+  font-family: "Fredoka One";
+  color: white;
+  font-size: 30px;
+}
+
+.section {
+  padding-bottom: 40px;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: rgb(227 227 227 / 30%) 0px 26px 30px -10px,
+    rgb(227 227 227/ 40%) 0px 16px 10px -10px;
+}
+
+.card:hover {
+  box-shadow: rgb(227 227 227 / 60%) 0px 40px 50px -10px,
+    rgb(227 227 227 / 50%) 0px 30px 22px -10px;
+  transform: scale(1.01);
+  border-color: rgb(249, 249, 249, 0.8);
+}
+
+footer {
+  color: #000;
+  background-color: #fff;
+  width: 95%;
+  border-radius: 20px 20px 0px 0px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  padding-left: 20px;
 }

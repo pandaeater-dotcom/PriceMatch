@@ -17,7 +17,7 @@ function Navbar() {
         </button>
         <div className="navbar-collapse navbar-collapse" id="navbarResponsive">
           <a className="navbar-brand" href="#">
-            Price Match
+            PriceMatch
           </a>
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -36,7 +36,7 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <button className="btn btn-primary">Try It Out!</button>
+          <button className="btn btn-outline-info">Try It Out!</button>
         </div>
       </div>
     </div>
