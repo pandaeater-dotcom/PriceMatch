@@ -14,7 +14,7 @@ function Banner() {
                         <button type="button" className="btn btn-outline-info">Learn More</button>
                     </div>
                 </div>
-                <div className="col-lg-5 col-md-12">
+                <div className="col-lg-6 col-md-12">
                     <img src="./Banner.png" alt="Placeholder image" width="300" height="230"></img>
                 </div>
             </div>
