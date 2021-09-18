@@ -8,7 +8,7 @@
 }
 
 .navbar {
-  background-color: rgb(7, 20, 54);
+  background-color: #071436;
   height: fixed;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .nav-link {
-  color: white;
+  color: white !important;
   margin: 0 10px;
   font-family: "Nunito";
   font-size: 18px;
@@ -45,4 +45,41 @@
 .nav-link:hover::after {
   width: 100%;
   transition: width 0.8s;
+}
+
+.banner {
+    height: 60vh;
+    padding-top: 60px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heading {
+  width: 80%;
+}
+
+.display-6 {
+  position: relative;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+.display-6:hover:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 4px;
+  border-radius: 2px;
+  width: 75%;
+  /* background: #444; */
+  background-image: linear-gradient(left, transparent 0%,rgb(192, 241, 235) 50%,transparent 100%);
+}
+
+.buttons > button {
+    margin: 20px 10px;
 }
