@@ -15,7 +15,7 @@ function UploadImage() {
   const [documents, setDocuments] = useState([])
   useEffect(
     ()=> 
-    onSnapshot(collection(db, "cheap-stores"), (snapshot)=> 
+    onSnapshot(collection(db, "applications"), (snapshot)=> 
       setDocuments(snapshot.docs.map(doc => doc.data()))), [])
   const [imageAsFile, setImageAsFile] = useState();
   const [displayShops, setDisplayShops] = useState(false);
@@ -34,7 +34,7 @@ function UploadImage() {
       console.error(`not an image, the image file is a ${typeof imageAsFile}`);
     }
     setDisplayShops(true);
-    const storageRef = ref(storage, "photo");
+    const storageRef = ref(storage, "photo.jpg");
     uploadBytes(storageRef, imageAsFile).then((snapshot) => {
       console.log("Uploaded Image!");
     });
@@ -84,7 +84,7 @@ function UploadImage() {
           (documents.map(
             (doc) => {
               console.log(doc)
-              return <ShopItem name={doc.Name} prodName={doc.ProductName} price={doc.Price} />
+              return <ShopItem storeName={doc.StoreName} price={doc.Price} name={doc.Name} />
             }
           )): "Loading..."
         }

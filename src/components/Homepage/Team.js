@@ -10,46 +10,50 @@ function Team() {
         </div>
         <div className="card-deck">
           <div className="card">
-            <img className="card-img-top" src="" alt="Prabhav"></img>
+            <img
+              className="card-img-top"
+              src="./Prabhav Prefect.jpg"
+              alt="Prabhav"
+            ></img>
             <div className="card-body">
               <h5 className="card-title">Prabhav Khera</h5>
               <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Student at the University of Waterloo, CS 2026.
               </p>
             </div>
           </div>
           <div className="card">
-            <img className="card-img-top" src="" alt="Prabhav"></img>
+            <img
+              className="card-img-top"
+              src="./Ekanshh.jpg"
+              alt="Prabhav"
+            ></img>
             <div className="card-body">
               <h5 className="card-title">Ekanshh Praveen</h5>
               <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Student at the University of Waterloo, SE 2026.
               </p>
             </div>
           </div>
           <div className="card">
-            <img className="card-img-top" src="" alt="Prabhav"></img>
+            <img className="card-img-top" src="./DeepamPic.jpg" alt="Prabhav"></img>
             <div className="card-body">
-              <h5 className="card-title">Deepam Dibyojit</h5>
+              <h5 className="card-title">Deepam Dibyajot</h5>
               <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Student at the University of Waterloo, CS 2026.
               </p>
             </div>
           </div>
           <div className="card">
-            <img className="card-img-top" src="" alt="Prabhav"></img>
+            <img
+              className="card-img-top"
+              src="./Rohit.jpeg"
+              alt="Prabhav"
+            ></img>
             <div className="card-body">
-              <h5 className="card-title">Rohit Baradhwaj</h5>
+              <h5 className="card-title">Rohit Bharadwaj</h5>
               <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Student at the University of Waterloo, SE 2026.
               </p>
             </div>
           </div>
