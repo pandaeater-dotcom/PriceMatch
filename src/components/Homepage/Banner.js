@@ -8,7 +8,7 @@ function Banner() {
                     <div className="heading">
                         <h2 className="display-4">Paying too much?</h2>
                     </div>
-                    <p className="banner-description">Aliqua ullamco elit ea ut elit nulla proident cupidatat eu ipsum. Fugiat non anim aute tempor voluptate cillum in consequat mollit. Ut nulla Lorem laboris aliqua pariatur ullamco reprehenderit id commodo consequat id.</p>
+                    <p className="banner-description">PriceMatch throws the ball back into the consumer's court by helping compare prices for any item. Simply take a picture of the product and you get a list of stores and prices at your fingertips.</p>
                     <div className="buttons">
                         <button type="button" className="btn btn-info">Get Started!</button>
                         <button type="button" className="btn btn-outline-info">Learn More</button>

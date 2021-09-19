@@ -6,14 +6,14 @@
   
   .inner p{
     font-family: "Montserrat";
-    color: #fff;
+    /* color: #fff; */
     font-size: 15px;
     font-weight: 600;
     margin: 0; }
   
   input, textarea, select, button {
     font-family: "Montserrat";
-    color: #fff;
+    /* color: #fff; */
     font-size: 15px; }
   
   p, h1, h2, h3, h4, h5, h6, ul {
@@ -29,7 +29,7 @@
   a:hover {
     text-decoration: none; }
   
-  :focus {
+  input:focus {
     outline: none; }
   
   .wrapper {
@@ -64,7 +64,7 @@
     color: #fff;
   }
   
-  p {
+  form > p {
     text-align: center;
     padding: 0 10px;
     margin-bottom: 55px;

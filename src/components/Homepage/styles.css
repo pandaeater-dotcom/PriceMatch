@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -108,7 +109,7 @@
 }
 
 .features {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -122,9 +123,11 @@
 }
 
 .feature-description {
-  font-family: "Roboto";
+  font-family: "Lato";
   width: 60%;
   margin-top: -40px;
+  font-weight: 600;
+  font-size: 19px;
 }
 
 .team-section {
