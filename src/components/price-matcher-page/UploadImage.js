@@ -54,8 +54,8 @@ function UploadImage() {
         </div>
       </div>
       <form onSubmit={handleFirebaseUpload}>
-        <div class="wrapper">
-          <div class="file-upload">
+        <div className="wrapper">
+          <div className="file-upload">
             <input type="file" onChange={handleImageAsFile} />
             <ArrowUpwardIcon color="secondary" />
           </div>
