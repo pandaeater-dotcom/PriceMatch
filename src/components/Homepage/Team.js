@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 function Team() {
   return (
-    <div className="container-fluid team-section">
+    <div className="container-fluid team-section" id="teams">
       <div className="section">
         <div className="section-title">
           <h2 className="display-4">The Team</h2>

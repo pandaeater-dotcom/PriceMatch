@@ -1,5 +1,7 @@
 import React from "react";
 import "./styles.css";
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <div className="navbar navbar-expand-md navbar-sticky-top bg-faded navbar-center">
@@ -16,27 +18,28 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="navbar-collapse navbar-collapse" id="navbarResponsive">
-          <a className="navbar-brand" href="#">
+          <Link to="/" className="navbar-brand" href="#">
             PriceMatch
-          </a>
+          </Link>
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link to="/" className="nav-link" href="#">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a href="#teams" className="nav-link">
                 About Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link to="/contact" className="nav-link" href="#">
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
-          <button className="btn btn-outline-info">Try It Out!</button>
+          <Link to="/pricematch" className="btn btn-outline-info">Try It Out!</Link>
+          {/* <button className="btn btn-light">Take a photo!</button> */}
         </div>
       </div>
     </div>

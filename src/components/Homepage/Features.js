@@ -2,7 +2,7 @@ import React from 'react'
 
 function Features() {
     return (
-        <div className="contaniner-fluid">
+        <div className="contaniner-fluid" id="features-page">
             <div className="features container">
                 <div className="feature">
                     <div className="feature-img">
