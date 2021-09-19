@@ -53,6 +53,7 @@
 .banner {
     height: 60vh;
     padding-top: 60px;
+    color: #071436; 
 }
 
 .flex {
@@ -107,6 +108,7 @@
 }
 
 .features {
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

@@ -21,7 +21,7 @@ function UploadImage() {
     if (imageAsFile === "") {
       console.error(`not an image, the image file is a ${typeof imageAsFile}`);
     }
-    const storageRef = ref(storage, "images/photo");
+    const storageRef = ref(storage, "photo");
     uploadBytes(storageRef, imageAsFile).then((snapshot) => {
       console.log("Uploaded Image!");
     });
